@@ -60,5 +60,11 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ConsoleApp1\ConsoleApp1\ConsoleApp1.csproj">
+      <Project>{39e9eecd-34ba-4613-bf6a-9a8722331cfb}</Project>
+      <Name>ConsoleApp1</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
