@@ -10,10 +10,7 @@ namespace TestProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!");
-            int countBooks = 10;
-            Console.WriteLine(countBooks);
-            Console.ReadKey();
+
         }
     }
 }
