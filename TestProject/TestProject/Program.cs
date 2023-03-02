@@ -10,7 +10,8 @@ namespace TestProject
     {
         static void Main(string[] args)
         {
-
+            string id = "5";
+            Console.WriteLine(id);
         }
     }
 }
